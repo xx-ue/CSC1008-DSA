@@ -64,7 +64,26 @@ select {
 
 /* Transition */
 .select:hover::after {
-    color: #f39c12;
+    color: #34495e;
+}
+/* Submit Button */
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  max-width: 20em;
+  margin-top: 1em;
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.25em;
+  background-color: #34495e;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e67e22;
 }
 /*body {*/
 /*  background-color: blue;*/
