@@ -1,0 +1,37 @@
+<h1>GRAB 2.0</h1>
+<h2>Better than before</h2>
+<form action="/redirect">
+<div class="select">
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/test.css') }}">
+    <select name="Route" id="Route">
+        <option selected disabled>Choose a route</option>
+        <option value="1">Braddell to Bishan (Dijkstra)</option>
+        <option value="2">Junction 8 to MOE Centre (A Star)</option>
+        <option value="3">Matching</option>
+        <option value="4">Marymount to Braddell (Ridesharing)</option>
+        <option value="5">Marymount to Braddell (Rideshare with no pick-up)</option>
+
+    </select>
+
+
+</div>
+    <input type="submit">
+    </form>
+{#<body>#}
+{#<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/test.css') }}">#}
+{#<form action="/redirect">#}
+{##}
+{#    <label for="option">Choose a Pick up point</label>#}
+{#    <select id="start" name="start">#}
+{#      <option value="start1">Normal Route: Dijkstra</option>#}
+{#      <option value="start2">Normal Route: A Star</option>#}
+{#    </select>#}
+{#    <label for="option">Choose destination: </label>#}
+{#    <select id="end" name="end">#}
+{#      <option value="end1">Braddell MRT</option>#}
+{#      <option value="end2">MOE language centre</option>#}
+{#    </select>#}
+{#    <input type="submit">#}
+{#  </form>#}
+{#</body>#}
